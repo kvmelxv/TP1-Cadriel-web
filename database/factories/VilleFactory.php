@@ -19,7 +19,7 @@ class VilleFactory extends Factory
     {
         return [
             
-            'Nom' => $this->faker->sentence
+            'Nom' => $this->faker->city
         ];
     }
 }

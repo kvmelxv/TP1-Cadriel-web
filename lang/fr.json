@@ -1,0 +1,69 @@
+{
+    "Home":"Accueil",
+    "About":"À propos",
+    "Contact":"Contact",
+    "List users":"Utilisateurs",
+    "Actions":"Actions",
+    "Add post":"Ajouter un article",
+    "Documents":"Documents",
+    "Share documents":"Partager des documents",
+    "Languages":"Langues",
+    "Login":"Se connecter",
+    "Logout":"Se déconnecter",
+    "Sign up":"S'inscrire",
+    "English":"Anglais",
+    "French":"Français",
+
+    "Registration":"Inscription",
+
+    "Name":"Nom",
+    "Adresse":"Adresse",
+    "Phone":"Téléphone",
+    "Email":"Courriel",
+    "Date of birth":"Date de naissance",
+    "Password":"Mot de passe",
+    "Confirm password":"Confirmez le mot de passe",
+    "City":"Ville",
+    "Select a city":"Selectionez une ville",
+    "Save":"Sauvegrader",
+
+    "Edit":"Modifier",
+    "Delete":"Supprimer",
+
+    "Edit a user":"Modification utlisateur",
+    "Delete user":"Supprimer utlisateur",
+    "Cancel":"Annuler",
+
+    "The user has been modified with success.":"L'utlisateur a été midifié avec succée.",
+    "The user has been deleted.":"l'utilisateur a été Supprimé.",
+
+    "Add an article":"Ajoutez un article",
+    "Section in english":"Section en Anglais",
+    "Section in french":"Section en Français",
+    "Title":"Titre",
+    "Article":"Article",
+    "Share":"Partager",
+
+    "Author":"Auteur",
+    "Date of publication":"Date de publication",
+
+    "The article has been modified with success.":"L'article a été modifié avec succée.",
+    "The article has been deleted with success.":"L'article a été supprimé avec succée.",
+
+    "Delete Article": "Supprimer un Article",
+
+    "Reset password":"Réinitialisation du mot de passe",
+    "Submit":"Soumettre",
+
+    "Upload file":"Téléchargez un fichier",
+    "File":"Fichier",
+
+    "File uploaded with success.":"Fichier téléchargé avec succée.",
+
+    "Size":"Taille",
+    "Upload":"Télécharger",
+
+    "The file has been deleted with success.":"Le fichier a été supprimé avec succée."
+
+
+}

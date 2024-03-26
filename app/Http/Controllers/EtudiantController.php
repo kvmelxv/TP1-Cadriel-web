@@ -14,8 +14,8 @@ class EtudiantController extends Controller
      */
     public function index()
     {
-        $etudiants = Etudiant::all();
-        return view('etudiants.index', ['etudiants' => $etudiants]);
+        //$etudiants = Etudiant::all();
+        //return view('etudiants.index', ['etudiants' => $etudiants]);
     }
 
     /**
@@ -23,8 +23,8 @@ class EtudiantController extends Controller
      */
     public function create()
     {
-        $villes = Ville::all();
-        return view('etudiants.create', ['villes' => $villes]);
+       /*  $villes = Ville::all();
+        return view('users.create', ['villes' => $villes]); */
 
     }
 
@@ -33,13 +33,14 @@ class EtudiantController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
+
+        /* $request->validate([
             'nom' => 'required|string|max:255',
             'adresse' => 'required|string',
             'telephone' => 'required',
             'email' => 'required|email',
             'date_de_naissance' => 'required|date',
-            'ville_id' => 'required'
+            'ville_id' => 'required|exists:villes,id'
         ]);
 
         $etudiant = Etudiant::create([
@@ -51,7 +52,7 @@ class EtudiantController extends Controller
             'ville_id' => $request->ville_id        
         ]);
 
-        return redirect()->route('etudiant.show', $etudiant->id)->with('success', "L'étudiant a été ajouté avec succée.");
+        return redirect()->route('users.show', $etudiant->id)->with('success', "L'étudiant a été ajouté avec succée."); */
     }
 
     /**
@@ -59,7 +60,7 @@ class EtudiantController extends Controller
      */
     public function show(Etudiant $etudiant)
     {
-        return view('etudiants.show', ['etudiant' => $etudiant]);
+        /* return view('users.show', ['etudiant' => $etudiant]); */
     }
 
     /**
@@ -67,8 +68,8 @@ class EtudiantController extends Controller
      */
     public function edit(Etudiant $etudiant)
     {
-        $villes = Ville::all();
-        return view('etudiants.edit', ['villes' => $villes, 'etudiant' => $etudiant]);
+        /* $villes = Ville::all();
+        return view('users.edit', ['villes' => $villes, 'etudiant' => $etudiant]); */
     }
 
     /**
@@ -76,13 +77,13 @@ class EtudiantController extends Controller
      */
     public function update(Request $request, Etudiant $etudiant)
     {
-        $request->validate([
+        /* $request->validate([
             'nom' => 'required|string|max:255',
             'adresse' => 'required|string',
             'telephone' => 'required',
             'email' => 'required|email',
             'date_de_naissance' => 'required|date',
-            'ville_id' => 'required'
+            'ville_id' => 'required|exists:villes,id'
         ]);
 
         $etudiant->update([
@@ -94,7 +95,7 @@ class EtudiantController extends Controller
             'ville_id' => $request->ville_id        
         ]);
 
-        return redirect()->route('etudiant.show', $etudiant->id)->with('success', "L'étudiant a été modifié avec succée.");
+        return redirect()->route('users.show', $etudiant->id)->with('success', "L'étudiant a été modifié avec succée."); */
     }
 
     /**
@@ -102,8 +103,8 @@ class EtudiantController extends Controller
      */
     public function destroy(Etudiant $etudiant)
     {
-        $etudiant->delete();
+       /*  $etudiant->delete();
 
-        return redirect()->route('etudiant.index')->with('success', "L'étudiant a été supprimé avec succée.");
+        return redirect()->route('users.index')->with('success', "L'étudiant a été supprimé avec succée."); */
     }
 }

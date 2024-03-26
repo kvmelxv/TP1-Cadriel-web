@@ -1,0 +1,70 @@
+{
+    "Home":"Home",
+    "About":"About",
+    "Contact":"Contact",
+    "List users":"Users",
+    "Actions":"Actions",
+    "Add post":"Add post",
+    "Documents":"Documents",
+    "Share documents":"Share documents",
+    "Languages":"Languages",
+    "Login":"Login",
+    "Logout":"Logout",
+    "Sign up":"Sign up",
+    "English":"English",
+    "French":"French",
+
+    "Registration":"Registration",
+
+    "Name":"Name",
+    "Adresse":"Adresse",
+    "Phone":"Phone",
+    "Email":"Email",
+    "Date of Birth":"Date of birth",
+    "Password":"Password",
+    "Confirm password":"Confirm password",
+    "City":"City",
+    "Select a city":"Select a city",
+    "Save":"Save",
+
+    "Edit":"Edit",
+    "Delete":"Delete",
+
+    "Edit a user":"Edit a user",
+    "Delete user":"Delete user",
+    "Cancel":"Cancel",
+
+    "The user has been modified with success.":"The user has been modified with success.",
+    "The user has been deleted.":"The user has been deleted.",
+
+    "Add an article":"Add an article",
+    "Section in english":"Section in English",
+    "Section in french":"Section in French",
+    "Title":"Title",
+    "Article":"Article",
+    "Share":"Share",
+
+    "Author":"Author",
+    "Date of publication":"Date of publication",
+
+    "The article has been modified with success.":"The article has been modified with success.",
+    "The article has been deleted with success.":"The article has been deleted with success.",
+
+    "Delete Article": "Delete Article",
+
+    "Reset password":"Reset password",
+    "Submit":"Submit",
+
+    "Upload file":"Upload file",
+    "File":"File",
+
+    "File uploaded with success.":"File uploaded with success.",
+
+    "Size":"Size",
+    "Upload":"Upload",
+
+    "The file has been deleted with success.":"The file has been deleted with success."
+
+
+
+}
